@@ -41,4 +41,4 @@ highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0 
 "set t_Co=256 
 "set background=dark 
-"colorscheme  molokai 
+colorscheme  molokai 
