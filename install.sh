@@ -1,5 +1,7 @@
 #!/bin/bash
 echo "Customize start..."
-sudo ln -s ~/vim-hayate .vimrc ~/.vimrc
-sudo ln -s ~/vim-hayate .vimrc ~/.vim/colors
+echo "Linking .vimrc to ~/.vimrc ..."
+sudo ln -s ~/vim-hayate/.vimrc ~/.vimrc
+echo "Linking colors to ~/.vim/colors ..."
+sudo ln -s ~/vim-hayate/colors  ~/.vim/colors
 echo "Complete."
